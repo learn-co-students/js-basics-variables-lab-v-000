@@ -1,5 +1,5 @@
-// Code your solution in this file!
-"use strict"
+// blahCode your solution in this file!
+
 
 const companyName = "Scuber";
 
