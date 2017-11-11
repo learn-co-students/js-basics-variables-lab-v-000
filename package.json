@@ -27,6 +27,8 @@
   },
   "homepage": "https://github.com/learn-co-curriculum/js-basics-variables-lab#readme",
   "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "learn-browser": "^0.1.13"
-  }
+  },
+  "plugins": ["transform-object-rest-spread"]
 }
