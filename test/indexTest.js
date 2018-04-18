@@ -1,6 +1,7 @@
 const expect = chai.expect;
 
 describe('index.js', function () {
+  
   describe('companyName', function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
@@ -30,4 +31,5 @@ describe('index.js', function () {
       expect(function () { companyCeo = 'Lauren Hart' }).to.not.throw(TypeError);
     });
   });
+
 });
