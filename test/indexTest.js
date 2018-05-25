@@ -1,13 +1,16 @@
 const expect = chai.expect;
 
 describe('index.js', function () {
-  describe('companyName', function () {
+  describe(companyName, function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
     });
 
+    it('is set as Scuber', function (){
+      expect(companyName).to.equal('Scuber');
+    })
     it('raises error if the companyName is changed', function () {
-      expect(function () { companyName = 'specialCompany' }).to.throw(TypeError);
+      expect(function () { companyName = 'Scuber' }).to.throw(TypeError);
     });
   });
 
@@ -17,7 +20,7 @@ describe('index.js', function () {
     });
 
     it('does not raise error if the mostProfitableNeighborhood is changed', function () {
-      expect(function () { mostProfitableNeighborhood = 'Upper West Side' }).to.not.throw(TypeError);
+      expect(function () { mostProfitableNeighborhood = 'Chelsea' }).to.not.throw(TypeError);
     });
   });
 
@@ -27,7 +30,7 @@ describe('index.js', function () {
     });
 
     it('does not raise error if the companyCeo is changed', function () {
-      expect(function () { companyCeo = 'Lauren Hart' }).to.not.throw(TypeError);
+      expect(function () { companyCeo = 'Susan Smith' }).to.not.throw(TypeError);
     });
   });
 });
