@@ -28,5 +28,9 @@
   "homepage": "https://github.com/learn-co-curriculum/js-basics-variables-lab#readme",
   "devDependencies": {
     "learn-browser": "^0.1.13"
+  },
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
   }
 }
