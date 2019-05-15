@@ -7,6 +7,9 @@ const babel = require('babel-core');
 
 const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
+const companyName = 'Scruber'
+let mostProfitableNeighborhood = "Chelsea"
+let companyCeo = "Susan Smith"
 
 
 describe('index.js', function () {
