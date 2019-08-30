@@ -1,9 +1,7 @@
 // Code your solution in this file!
-const companyName = Scuber;
 
-let mostProfitableNeighborhood = Chelsea;
- mostProfitableNeighborhood = 'Upper West Side'
+const companyName = 'Scuber';
 
- let companyCeo = 'Susan Smith';
-   companyCeo = 'Lauren Hart'
+let mostProfitableNeighborhood = 'Chelsea';
 
+let companyCeo = 'Susan Smith';
