@@ -10,6 +10,9 @@ const js = fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
 
 
 describe('index.js', function () {
+  before(function() {
+    this.timeout(10000) // 10 second timeout for setup
+  })
   describe('companyName', function () {
     it('is set as Scuber', function () {
       expect(companyName).to.equal('Scuber');
